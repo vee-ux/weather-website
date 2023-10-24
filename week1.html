@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .current{
+            text-align: center;
+            background-color: transparent;
+        }
+      .Title {
+        color: blue;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+      }
+      .prediction{
+        color: black;
+        text-align: center;
+      }
+      .first{
+        font-size: 25px;
+      }
+      .second{
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .day{
+        font-weight: bold;
+        font-size: 20px;
+      }
+      div{
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      div:hover{
+        background: #fffbef;
+      }
+      .prediction :hover{
+        border-color: blue;
+      }
+      button {
+        margin: 20px auto;
+        display: block;
+        color: #885df1;
+        font-size: 16px;
+        background: transparent;
+        padding: 15px 20px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: blue;
+        color: blueviolet;
+        cursor: pointer;
+      }
+      p{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> &#127780 </h1>
+    <div class="current"> 
+    <span class="Title"> Currently 21&#176 in Tokyo</span>
+    <br></br>
+      <span class="first">13&#176 /</span>
+      <span class="second">23&#176</span>
+    </div>
+    <br></br>
+    <div class="prediction">
+      <div class="day"> &#127783 Tomorrow</div>
+      <span class="date">10&#176 / 22&#176</span>
+    </div>
+    <br></br>
+    <div class="prediction">
+      <div class="day"> &#9729 Saturday</div>
+      <span class="date">15&#176 / 17&#176</span>
+    </div>
+    <br></br>
+    <div class="prediction">
+      <div class="day"> &#9728 Sunday</div>
+      <span class="date">25&#176 / 28&#176</span>
+    </div>
+    <button>Change city</button>
+    <p>Coded by Velter</p>
+  </body>
+</html>
